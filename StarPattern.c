@@ -16,22 +16,18 @@ int main()
 	
 	for(i=1; i<=row; i++)
 	{
-		
 		for(k=2; k<=i; k++)
 		{
 			printf(" ");
 		}
+		
 		for(j=2*m-1; j>=1; j--)
 		{
-			
 			printf("*");
-			
 		}
+		
 		m--;
-			printf("\n");
-		
-		
+		printf("\n");
 	}
-	
 	return 0;
 }
